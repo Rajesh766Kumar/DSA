@@ -6,5 +6,5 @@ using namespace std;
 int main (){
     string a(5, 'j');
     cout<<a<<"\n";
-    string j=
+    string j =
 }
