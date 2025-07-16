@@ -19,23 +19,23 @@
 
 // 2 replace each letter with the next in the alphbet.
 
-// #include <iostream>
-// #include<string>
-// using namespace std;
-// int main (){
-//     string i;
-//     cout<<"Enter a string: ";
-//     getline(cin, i);
+#include <iostream>
+#include<string>
+using namespace std;
+int main (){
+    string i;
+    cout<<"Enter a string: ";
+    getline(cin, i);
 
-//     for (char &ch : i) {
-//         if (isalpha(ch)) {
-//             if (ch == 'z') ch = 'a';
-//             else if (ch == 'Z') ch = 'A';
-//             else ch++;
-//         }
-//     }
-//     cout<<"modified string :"<<i<<endl;
-// }
+    for (char &ch : i) {
+        if (isalpha(ch)) {
+            if (ch == 'z') ch = 'a';
+            else if (ch == 'Z') ch = 'A';
+            else ch++;
+        }
+    }
+    cout<<"modified string :"<<i<<endl;
+}
 
 
 
