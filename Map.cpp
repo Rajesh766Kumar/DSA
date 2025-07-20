@@ -1,3 +1,7 @@
+// map is called asscioative contain .
+// it is having key and value pair 
+// it is store the data is accending order by defult
+
 #include<iostream>
 using namespace std;
 #include<map>
@@ -21,4 +25,9 @@ int main(){
         cout<<"not found";
         
      }
+     for (auto p:m){
+   cout << "maxsize = "  <<" max-size" << "\n";
+      cout<<"\nafter delection \n";
+      cout<<p.first<<","<<p.second<<"\n";
+   }
 }     
